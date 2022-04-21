@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../proj3"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "dancer"
+	}
+}
