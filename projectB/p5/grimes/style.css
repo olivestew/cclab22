@@ -1,7 +1,57 @@
+*{
+  font-family: 'Nunito Sans', serif;
+	letter-spacing: 4px;
+	background-color: #34343e;   
+}
+
 html, body {
   margin: 0;
   padding: 0;
 }
 canvas {
   display: block;
+}
+
+a, button{
+  	font-family: 'Nunito Sans', sans-serif;
+	letter-spacing: 10px;
+	background-color: #34343e;
+  color:rgb(217, 188, 241);
+}
+
+header{
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  padding: 20px 15%;
+}
+
+.navbar{
+  color: #2f1a2b;
+}
+
+button{
+  padding: 10px,15px;
+  background-color:#613659;
+  border:none;
+	background-color: #613659;
+	border-radius: 4px;
+	font-size: 100%;
+  cursor: pointer;
+
+}
+
+.music{
+  display:table;
+  justify-content: space-around;
+  height: 100%;
+  width:100%
+
+}
+.container{
+  -ms-ime-align:center;
+  text-align: center;
+  display:table-cell;
+  vertical-align: middle;
+
 }
